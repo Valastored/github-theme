@@ -1,0 +1,144 @@
+/**
+* @name FurinaTheme
+* @author Valastor
+* @description A theme for furina
+* @invite rtBQX5D3bD
+* @version 1.0
+*/
+@import url("C:/Users/vince/AppData/Roaming/Vencord/themes/main.css");
+
+:root {
+
+/* --- User variables --- */
+
+/* Jumping GIF */
+--jumping-gif: url('https://upload-os-bbs.hoyolab.com/upload/2024/01/01/296851425/2b0f2400346cd7621931df075bcb43c7_3996149763167465138.gif');
+
+/* Background (if you want an image replace it by : 
+
+--background-tertiary-alt: url("image-link"); without that => */
+--background-tertiary-alt: url("https://motionbgs.com/media/6687/furina-rain.jpg");
+
+/* Border-radius for the whole theme */
+--border-radius: 20px;
+
+}
+
+.theme-dark {
+
+    /* Text */
+    --text-normal: #e1e1f8;
+    --header-primary: #e1e9f8;
+    --interactive-normal: #b1b6fa;
+    --channels-default: #e1e2f8;
+
+    --text-muted: #c1c8e2;
+    --interactive-muted: #948cad;
+
+    --header-secondary: #c1c1e2;
+    --interactive-hover: #c1c5e2;
+    --interactive-active: #c1c1e2;
+
+    /* Background color */
+    --background-primary: rgba(31, 31, 46, 0.7) !important;
+    --background-secondary: rgba(54, 49, 75, 0.9);
+    --background-secondary-alt: rgba(82, 73, 117, 0.9);
+    --background-tertiary: #100f22;
+    --background-floating: #111522;
+    --background-accent: #5353c5;
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(35, 31, 56, 0.32);
+    --background-modifier-active: rgba(19, 12, 12, 0.32);
+    --background-modifier-selected: rgba(21, 21, 31, 0.32);
+    --toast-background: #36375e !important;
+    --toast-header: #1d203b !important;
+    --toast-contents: #302949 !important;
+    --toast-border: #2b2949 !important;
+
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+
+    /* Other */
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+    .colorBrand-ROmMP1 { color: #4f4bbd;}
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { background-color: var(--background-modifier-hover) !important;}
+
+    /* Buttons */
+    .lookFilled-1Gx00P { background-color: #535bc5 !important;}
+    .lookFilled-1Gx00P:active, .lookFilled-1Gx00P:hover { background-color: #634ab6 !important;}
+    .lookOutlined-3sRXeN:not(.colorWhite-rEQuAQ) { color: #5359c5; border-color: #6853c5;}
+
+    /* Hover background */
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { color: var(--interactive-normal);}
+
+.theme-light {
+
+    /* Text */
+    --text-normal: #6563a8;
+    --header-primary: #6463a8;
+    --interactive-normal: #6963a8;
+    --channels-default: #6563a8;
+
+    --text-muted: #636ba8;
+    --interactive-muted: #9792cf;
+
+    --header-secondary: #a292cf;
+    --interactive-hover: #857dbe;
+    --interactive-active: #726fb3;
+
+    /* Background color */
+    --background-primary: #FFFFFF;
+    --background-secondary: #ffeeee;
+    --background-secondary-alt: #c7cbfd;
+    --background-tertiary: #bbbbff;
+    --background-floating: #c1bbff;
+    --background-accent: #5373c5;
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(31, 33, 56, 0.062);
+    --background-modifier-active: rgba(13, 12, 19, 0.123);
+    --background-modifier-selected: rgba(21, 21, 31, 0.11);
+
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+
+    /* Other */
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+
+    .colorBrand-ROmMP1 { color: #6853c5;}
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { background-color: var(--background-modifier-hover) !important;}
+
+    /* Buttons */
+    .lookFilled-1Gx00P { background-color: #5359c5 !important;}
+    .lookFilled-1Gx00P:active, .lookFilled-1Gx00P:hover { background-color: #534ab6 !important;}
+    .lookOutlined-3sRXeN:not(.colorWhite-rEQuAQ) { color: #5353c5; border-color: #5b53c5;}
+
+    /* Hover background */
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { color: var(--interactive-normal);}
+
+    :root .app-2CXKsg::before { background: url(https://cdn.discordapp.com/attachments/530917134100856832/989199248518180955/Webp.net-resizeimage_5.png); }
+    :root .app-3xd6d0::before,
+    :root .app-3xd6d0::after, 
+    :root .app-2CXKsg::after,
+    :root .layers-OrUESM::before,
+    :root .layers-OrUESM::after,
+    :root .app-3xd6d0::before, 
+    :root .bg-1QIAus::after,
+    :root .bg-1QIAus::before {
+  content: none !important;
+    }
+  .container-1eFtFS::after{content:"Scared Yet?";}
+  .homeIcon-r0w4ny path {fill: transparent}
+.homeIcon-r0w4ny {
+    background: url('https://cdn.discordapp.com/attachments/530917134100856832/989239956981547088/original.jpg') center/cover no-repeat;
+    min-width: 60px;
+    min-height: 60px;
+}
+
