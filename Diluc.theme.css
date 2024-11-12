@@ -1,7 +1,7 @@
 /**
-* @name HuTaoTheme
+* @name DilucTheme
 * @author Valastor
-* @description A theme based on Hu Tao from Genshin Impact
+* @description A theme based on Diluc from Genshin Impact
 * @invite rtBQX5D3bD
 * @version 1.0
 */
@@ -12,15 +12,18 @@
 /* --- User variables --- */
 
 /* Jumping GIF */
---jumping-gif: url('https://64.media.tumblr.com/aaf627eec6bfd0e25456448d50b00b54/5055027a25ccf478-f5/s500x750/f3aa5c032527088805f37f0dcd0c52e0cea3e510.gifv');
+--jumping-gif: url('https://media.tenor.com/AkuHA9vXXS8AAAAi/genshin-impact-genshin.gif');
 
 /* Background (if you want an image replace it by : 
 
 --background-tertiary-alt: url("image-link"); without that => */
---background-tertiary-alt: url("https://images4.alphacoders.com/129/1297085.jpg");
+/*--background-tertiary-alt: url("https://moewalls.com/wp-content/uploads/2022/08/diluc-ragnvindr-genshin-impact-thumb.jpg");
+--background-tertiary-alt: url("https://images2.alphacoders.com/117/1179523.jpg");*/
+--background-tertiary-alt: url("https://i.redd.it/p4dybpg0rzb61.jpg");
+
 
 @media (orientation: portrait) {
-    --background-tertiary-alt: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/be9354a8-ab7f-4660-8d54-8861fb1c81e7/dem2xq1-5e94c82b-791a-463e-80b3-51e330a7cf66.jpg/v1/fit/w_828,h_1472,q_70,strp/genshin_impact___hu_tao_wallpaper_by_hierosonyma_dem2xq1-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjI0NyIsInBhdGgiOiJcL2ZcL2JlOTM1NGE4LWFiN2YtNDY2MC04ZDU0LTg4NjFmYjFjODFlN1wvZGVtMnhxMS01ZTk0YzgyYi03OTFhLTQ2M2UtODBiMy01MWUzMzBhN2NmNjYuanBnIiwid2lkdGgiOiI8PTEyNjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.Kx0m9LCezXcoqhW-RU0HDnMT7adjSvGL8zFeAKLMr2U");
+    --background-tertiary-alt: url("https://upload-os-bbs.hoyolab.com/upload/2021/04/28/128444821/b615f7885825d4921522113670e33c0c_8602705104192675136.jpg");
 }
 
 /* Border-radius for the whole theme */

@@ -1,5 +1,5 @@
 /**
-* @name HuTaoTheme
+* @name HuTaoTheme2
 * @author Valastor
 * @description A theme based on Hu Tao from Genshin Impact
 * @invite rtBQX5D3bD
@@ -16,8 +16,9 @@
 
 /* Background (if you want an image replace it by : 
 
---background-tertiary-alt: url("image-link"); without that => */
---background-tertiary-alt: url("https://images4.alphacoders.com/129/1297085.jpg");
+--background-tertiary-alt: url("image-link"); without that => 
+--background-tertiary-alt: url("https://images4.alphacoders.com/129/1297085.jpg");*/
+--background-tertiary-alt: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/be9354a8-ab7f-4660-8d54-8861fb1c81e7/dem2xq5-10cbf237-1890-4192-86aa-c0fecea121b5.jpg/v1/fill/w_1192,h_670,q_70,strp/genshin_impact___hu_tao_wallpaper_by_hierosonyma_dem2xq5-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvYmU5MzU0YTgtYWI3Zi00NjYwLThkNTQtODg2MWZiMWM4MWU3XC9kZW0yeHE1LTEwY2JmMjM3LTE4OTAtNDE5Mi04NmFhLWMwZmVjZWExMjFiNS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.cT6O-HuWUOfASBLn_3pgv7rgYHP8ay_uylbK5PTl_B0");
 
 @media (orientation: portrait) {
     --background-tertiary-alt: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/be9354a8-ab7f-4660-8d54-8861fb1c81e7/dem2xq1-5e94c82b-791a-463e-80b3-51e330a7cf66.jpg/v1/fit/w_828,h_1472,q_70,strp/genshin_impact___hu_tao_wallpaper_by_hierosonyma_dem2xq1-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjI0NyIsInBhdGgiOiJcL2ZcL2JlOTM1NGE4LWFiN2YtNDY2MC04ZDU0LTg4NjFmYjFjODFlN1wvZGVtMnhxMS01ZTk0YzgyYi03OTFhLTQ2M2UtODBiMy01MWUzMzBhN2NmNjYuanBnIiwid2lkdGgiOiI8PTEyNjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.Kx0m9LCezXcoqhW-RU0HDnMT7adjSvGL8zFeAKLMr2U");
