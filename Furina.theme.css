@@ -19,6 +19,11 @@
 --background-tertiary-alt: url("image-link"); without that => */
 --background-tertiary-alt: url("https://motionbgs.com/media/6687/furina-rain.jpg");
 
+@media (orientation: portrait) {
+    --background-tertiary-alt: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/74e4a3bc-3184-41f9-8f5e-aeb219d0c7db/dhgv8hi-394f1cd1-fe5d-4b2d-a536-696095a25213.png/v1/fill/w_1280,h_2276,q_80,strp/furina_minimalism_wallpaper__genshin___phone__by_notdyn_dhgv8hi-fullview.jpg");
+}
+
+
 /* Border-radius for the whole theme */
 --border-radius: 20px;
 
