@@ -69,7 +69,7 @@
     --deprecated-quickswitcher-input-background: var(--background-primary);
 
     :is(.layers_d4b6c5,.layers_a01fb1)>:is(.layers_d4b6c5,.layers_a01fb1,.layer_d4b6c5,.layerContainer_cd0de5,.layer_cd0de5,.layer_c9e2da)>:is(.container_a4d4d9,.container_ee69e0,.container_fd6364,.container_fa295b,.container_eba0ba,.containerPadding_eba0ba,.containerDefault_f6f816,.containerDefault_a08117,.container_cc72c1,.container_e1e976,.container_b2ca13,.container_e44302,.container_b558d0,.container_a3b500,.container_c47562,.container_cbd271,.container_e9f61e,.erd_scroll_detection_container,.erd_scroll_detection_container_animation_active,.containerTop_b18d5c,.containerWithContent_b64375,.container_b64375,.container_c9ccf6,.container_afed89,.container_c10249,.container_f4e139,.container_effbe2,.container_eedf95,.react-datepicker__month-container,.container_b15955,.container_ad9cbd,.container_c2739c,.container_c18ec9,.container_bf550a,.container_e5a42d,.container_df5532,.container_da1432,.container_ed1d57,.container_cebd1c,.vc-addon-title-container,.container_f0fccd,.container_f8b740,.container_c2668b,.container_e62b38,.container_ddc613,.container_f13432,.container_dc0b54,.container_c30bea,.container_b56bbc,.container_e41913,.container_af1167)::after {
-        content: "Furina";
+        content: "Hu Tao";
         position: fixed;
         top: 220px;
         bottom: 85px;
@@ -135,7 +135,7 @@
     --deprecated-quickswitcher-input-background: var(--background-primary);
 
     :is(.layers_d4b6c5,.layers_a01fb1)>:is(.layers_d4b6c5,.layers_a01fb1,.layer_d4b6c5,.layerContainer_cd0de5,.layer_cd0de5,.layer_c9e2da)>:is(.container_a4d4d9,.container_ee69e0,.container_fd6364,.container_fa295b,.container_eba0ba,.containerPadding_eba0ba,.containerDefault_f6f816,.containerDefault_a08117,.container_cc72c1,.container_e1e976,.container_b2ca13,.container_e44302,.container_b558d0,.container_a3b500,.container_c47562,.container_cbd271,.container_e9f61e,.erd_scroll_detection_container,.erd_scroll_detection_container_animation_active,.containerTop_b18d5c,.containerWithContent_b64375,.container_b64375,.container_c9ccf6,.container_afed89,.container_c10249,.container_f4e139,.container_effbe2,.container_eedf95,.react-datepicker__month-container,.container_b15955,.container_ad9cbd,.container_c2739c,.container_c18ec9,.container_bf550a,.container_e5a42d,.container_df5532,.container_da1432,.container_ed1d57,.container_cebd1c,.vc-addon-title-container,.container_f0fccd,.container_f8b740,.container_c2668b,.container_e62b38,.container_ddc613,.container_f13432,.container_dc0b54,.container_c30bea,.container_b56bbc,.container_e41913,.container_af1167)::after {
-        content: "Furina";
+        content: "Hu Tao";
         position: fixed;
         top: 220px;
         bottom: 85px;
@@ -182,22 +182,4 @@
     background: url('https://i.redd.it/sujdw6so8kd61.jpg') center/cover no-repeat;
     min-width: 60px;
     min-height: 60px;
-}
-
-.theme-dark::after {
-    content: "Hu Tao";
-    position: fixed;
-    top: 220px;
-    bottom: 85px;
-    right: 60px;
-    z-index: -2;
-    width: 320px;
-    background-color: var(--background-primary);
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    color: var(--text-normal);
-    border-radius: var(--border-radius);
 }
